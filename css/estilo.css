@@ -1,0 +1,826 @@
+/* *
+* @author Jamilton Damasceno
+*/
+
+/* Layout
+-----------------------------*/
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+html, body, #premium {
+	height: 100%;
+	overflow-x: hidden;
+	background-color: rgb(80, 155, 245);
+}
+
+body {
+	background: url(../imagens/capa.png),
+				url(../imagens/ruido.png),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif; }
+
+/* Barra de navegação
+-----------------------------*/ 
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+ .navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+	width:  1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+/* Capa 
+-----------------------------*/
+.capa {
+	text-align: center;
+}
+
+.caixa {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+	background: #7c25f8;
+}
+
+.btn-roxo:hover {
+	background: #6207e3;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+.btn-verde {
+	border: 2px solid green;
+	background-color: green;
+}
+
+.btn-verde:hover {
+	background-color: white;
+	color: black;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+
+/*REMIUM
+----------------------*/
+#capa_premium {
+	text-align: right;
+}
+
+.caixa_premium{
+	padding: 50px;
+}
+
+.caixa_premium h1,h2,p {
+	color: white
+}
+
+
+.caixa_premium p{
+	padding-top: 10px;
+}
+
+.caixa_premium2{
+	margin: 1px;
+}
+
+
+.btn-premium{
+	width: 200px;
+	color: white;
+	background-color: rgb(29, 185, 84);
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-size: 14px;
+	text-transform: uppercase;
+
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+
+
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-premium:hover {
+	width: 200px;
+	color: white;
+	background-color: rgb(30, 235, 130);
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-size: 15px;
+	text-transform: uppercase;
+
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+
+
+/* POR QUE VIRAR PREMIUM??? 
+-----------------------------*/
+#virar-premium {
+	background: white;
+	text-align: center;
+}
+
+.virarpremium  {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.virarpremium h2 {color: black;
+}
+
+.vantagenspremium {
+	width: auto;
+	margin-bottom: 15%;
+}
+
+.vantagenspremium h2{
+	color: silver;
+	font-size: 15px;
+}
+
+.vantagenspremium p{
+	color: silver;
+}
+
+.box_vantagenspremium {
+	width:auto;
+}
+
+.img-vantagenspremium {
+	width: 140px auto;
+	margin: 0px auto 40px;
+}
+
+/*ESCOLHA SEU PLANO
+-----------------------
+*/
+
+#escolha-premium {
+	background: #f8f8f8f8;
+}
+
+.container-rectangle {
+	margin-bottom: 40px;
+}
+
+.escolhapremium {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.escolhapremium h2{
+	padding-top: 5%;
+	color: black;
+}
+
+.escolhapremium p{
+	color: black;
+}
+
+.caixa-rectangle {
+	width: 270px;
+	max-width: 400px;
+}
+
+.ft-caixa-rectangle {
+	color: black;
+}
+
+
+#capa-ajuda {
+	background-image:url(https://support.scdn.co/web/_next/static/assets/58f431f/search-desktop.webp);
+}
+
+ /* inside-rectangle
+ -------------------*/
+.inside-rectangle {
+	border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    background-color: rgb(46, 119, 208);
+    color: rgb(255, 255, 255);
+    margin-right: 4px;
+}
+
+.inside-rectangle2 {
+	border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    border: 1px solid rgb(46, 119, 208);
+    color: rgb(46, 119, 208);
+}
+
+
+.inside-rectangle p{
+	font-size: 14px;
+	text-align:  left;
+	padding-top: 3px;
+	color: white;
+
+}
+
+.inside-rectangle-color p{
+	color: rgb(0,0,0,0);
+}
+ /* Retangulo-top
+ -------------------*/
+.rectangle-top {
+	text-align: left;
+    width: 270px;
+	max-width: 400px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 			5px 5px 0px 0px;
+    -moz-border-radius: 	5px 5px 0px 0px;
+    -webkit-border-radius: 	5px 5px 0px 0px;
+    box-shadow: 0px 0px 5px black;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+ /* Retangulo-body
+ -------------------*/
+.rectangle-body{
+	text-align: center;
+	width: 270px;
+	max-width: 400px;
+	height: 450px;
+	background-color: white;
+	padding: 10px 20px;
+	border-radius: 			0px;
+	-moz-border-radius: 	0px;
+	-webkit-border-radius: 	0px;
+
+	box-shadow: 0px 5px 0px black;
+	-webkit-box-shadow: 0px 5px 0px black;
+   -moz-box-shadow: 0px 5px 0px black;
+}
+
+
+.rectangle-body p{
+	text-align: left;
+	color: black;
+}
+
+
+ /* rectangle-botom
+ -------------------*/
+ .media{
+	width: 200px;
+}
+
+.media-body{
+ 	font-size: 14px;
+}
+
+.rectangle-botom {
+	background-color: rgb(255, 255, 255);
+	width: 270px;
+	max-width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+}
+
+.btn-rectangle {
+	width: 200px;
+	margin: 20px 20px;
+	box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 17px 48px;
+    position: relative;
+    background-color: rgb(29, 185, 84);
+    color: rgb(255, 255, 255);
+}
+
+
+.btn-rectangle:hover {
+	box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 17px 48px;
+    position: relative;
+    background-color: rgb(29, 185, 84);
+    color: rgb(255, 255, 255);
+}
+
+/*rectangle-end
+--------------------*/
+.rectangle-end {
+	text-align: left;
+    width: 270px;
+	max-width: 400px;
+    height: 150px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 			0px 0px 5px 5px;
+    -moz-border-radius: 	0px 0px 5px 5px;
+    -webkit-border-radius: 	0px 0px 5px 5px;  
+}
+
+.rectangle-end p{
+	color: silver;
+	font-size: 11px;
+	font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ /* S E R V I C S
+ -------------------*/
+.caixa-escolha{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#servicos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#recursos {
+	color: white;
+}
+
+#servicos h2, h3 {
+	color: #7c25f8;
+}
+
+#recursos h2 {
+	color: white;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
+
+.albuns {
+	padding: 10px 0;
+}
+
+ .capa-premium {
+	text-align: left;
+	
+}
+
+.rotacionar {
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+
+
+
+
+/* Rodapé
+-----------------------------*/
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul,li {
+	float: right;
+	margin: 0 5px;
+}
+
+/* Tipografia
+-----------------------------*/ 
+h1 {
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+
+
+
+
+/*
+----------------------------
+B R E A K     P O I N T 
+----------------------------
+*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.btn-custom {
+		margin: 10px 15px;
+		font-size: 1em;
+	}
+
+	.box-search2 {
+	    width:  90%;
+	}
+	.box-options-help {
+		text-align: left;
+	}
+
+	.vantagenspremium {
+		margin:auto;
+		width: 300px;
+	}
+
+	.caixa-rectangle {
+		width: auto;
+		margin:auto;
+		margin-bottom: 20px;
+		background-color: red;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h1 {
+		font-size: 3em;
+	}
+	.btn-custom {
+		margin: 10px 15px;
+	}
+
+	.box-search2 {
+	    width:  90%;
+	}
+	.box-options-help {
+		text-align: left;
+	}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 4em;
+	}
+
+	.box-help h1{
+	    line-height: 72px; }
+	.box-search {
+    	width: 700px;
+	}
+	.box-search2 {
+	    width:  90%;
+	}
+	.box-options-help {
+		text-align: left;
+	}
+	.container-rectangle {
+		background-color: red;
+	}
+	.caixa-rectangle {
+		width: auto;
+		margin:auto;
+		margin-bottom: 20px;
+		border: 3px solid orange;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 {
+		font-size: 5em;
+	}
+
+	.box-help h1{
+	    line-height: 72px;
+	}
+
+	.box-search {
+    	width: 900px;
+	}
+	.box-search2 {
+	    width:  90%;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 6em;
+	}
+
+
+	.box-search {
+    	width: 1100px;
+	}
+
+	.box-search2 {
+    	width: 90%;
+	}
+}
+
+
+/* rectangle pagina-prmium 
+----------------------------*/
+ @media (min-width: 1200px){
+	.rectangle {
+	    width: 1170px;
+	}
+}
+@media (min-width: 992px){
+
+	.rectangle {
+    	width: 970px;
+	}
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 768px){
+
+	.rectangle{
+	    width: 750px;
+	    padding: 75px 15px;
+
+	}
+}
+
+/* 
+pagina ajuda
+----------------------*/
+
+.icon-search {
+	background-color: white;
+	position: absolute;
+    margin: 18px 13px;
+    transform: translateY(-50%);
+    color: rgb(179, 179, 179);	
+}
+
+
+#capa-ajuda {
+	text-align: center;
+	width: auto; 
+	height: auto;
+	background-color: rgb(30,144,255);
+}
+	
+.box-help {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.box-help h1{
+	font-size: 4em;
+	text-align: center;
+	margin-top: 60px;
+
+}
+
+.box-search {
+	width: 100%;
+	text-align: center;
+	margin: 0px 0px;
+	margin-bottom: 40px;
+	margin-right: 10px;
+}
+
+
+.form-control {
+	padding-left: 40px;
+}
+
+
+.box-options{
+	margin-bottom: 60px;
+}
+
+.box-options-help{
+	color: silver;
+	cursor: pointer;
+}
+
+
+.box-options-help h3 {
+	font-size: 15px;
+	color: white;
+}
+
+.box-options-help{
+	cursor: pointer;
+    
+}
+
+
+/* pagina ajuda 2°section
+-------------------------*/
+
+#capa-ajuda2 {
+	text-align: center;
+	width: auto; 
+	height: auto;
+	background: #eeeeee;
+}
+
+.section-inside{
+	margin: 30px 0px 30px 0px;
+}
+
+.section-inside h3 {
+	font-size: 20px;
+	text-align: center;
+	padding-right: 20px;
+}
+
+
+.section-inside li {
+	text-align: left;
+	font-family: spotify-circular, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #2d46b9;
+	padding: 5px;
+	margin-left: 15px;
+	list-style: none;
+}
+
+.list-item {
+	width: 230px;
+	margin-right: 40px;
+	margin-left: 40px;
+	
+}
+
+
+.section-inside a {
+	font-family: spotify-circular, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #2d46b9;
+	padding: 5px;
+	list-style: none;
+}
+
+
+/* ajuda * Visite a comunidade
+--------------------------------*/
+
+#section-community {
+	text-align: center;
+	width: auto; 
+	height: auto;
+	background-color: rgb(248,248,255);
+}
+
+.community {
+	width:auto;
+	height: 250px;
+	background-color: green;
+}
+
+.community h3{
+	margin-top: 40px;
+	font-family: spotify-circular, Helvetica, Arial, sans-serif;
+	color: black;
+}
+
+.inside-community {
+	width:100px;
+	height:100px;
+}
+
+.inside-community p{
+	background-color:green;
+}
